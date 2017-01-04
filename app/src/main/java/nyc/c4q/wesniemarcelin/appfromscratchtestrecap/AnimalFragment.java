@@ -37,10 +37,10 @@ public class AnimalFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View mroot = inflater.inflate(R.layout.animal_fragment, container, false);
-        animalRecyclerView = (RecyclerView) mroot.findViewById(R.id.animal_recyclerview);
+        View mRoot = inflater.inflate(R.layout.animal_fragment, container, false);
+        animalRecyclerView = (RecyclerView) mRoot.findViewById(R.id.animal_recyclerview);
         animalRetrofitCall();
-        return mroot;
+        return mRoot;
     }
 
     public void animalRetrofitCall() {
