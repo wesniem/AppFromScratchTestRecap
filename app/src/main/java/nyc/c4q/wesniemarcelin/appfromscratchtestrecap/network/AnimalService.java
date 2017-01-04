@@ -9,6 +9,6 @@ import retrofit2.http.GET;
  */
 //Interface always has the top level object ie => the AnimalList
 public interface AnimalService {
-    @GET("")
+    @GET("12_21_2016_exam.pl")
     Call<AnimalList> getAnimals();
 }
